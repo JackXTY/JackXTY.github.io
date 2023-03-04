@@ -1,11 +1,14 @@
+/* Set up the basic styles for the page */
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	color: #333;
+	background-color: #f7f7f7;
 }
 
 header {
-	background-color: #2C3E50;
+	background-color: #3f51b5;
 	color: #FFF;
 	padding: 20px;
 	text-align: center;
@@ -13,10 +16,11 @@ header {
 
 h1 {
 	margin: 0;
+	font-size: 2.5em;
 }
 
 nav {
-	background-color: #34495E;
+	background-color: #f9a825;
 	color: #FFF;
 	padding: 10px;
 }
@@ -36,10 +40,17 @@ nav li {
 nav a {
 	color: #FFF;
 	text-decoration: none;
+	font-size: 1.2em;
+}
+
+nav a:hover {
+	background-color: #e65100;
 }
 
 main {
 	padding: 20px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -47,36 +58,42 @@ section {
 }
 
 h2 {
-	color: #2C3E50;
+	color: #3f51b5;
 	font-size: 2em;
-	margin: 0 0 10px;
+	margin: 0 0 30px;
+	text-align: center;
 }
 
 .project {
-	background-color: #F5F5F5;
-	border: 1px solid #E0E0E0;
+	background-color: #FFF;
+	border: 1px solid #CCC;
 	padding: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
-	color: #2C3E50;
+	color: #3f51b5;
 	font-size: 1.5em;
 	margin: 0 0 10px;
 }
 
 .project p {
 	margin: 0 0 10px;
+	font-size: 1.1em;
+	line-height: 1.5;
 }
 
 .project a {
-	background-color: #2C3E50;
+	background-color: #3f51b5;
 	color: #FFF;
 	display: inline-block;
 	margin-top: 10px;
 	padding: 10px 20px;
 	text-decoration: none;
+	font-size: 1.1em;
 }
 
 .project a:hover {
-	background-color: #34495E;
+	background-color: #2196f3;
 }
