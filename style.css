@@ -94,6 +94,10 @@ h2 {
 	font-size: 1.1em;
 }
 
+.project img {
+	margin: 0 0 60px;
+}
+
 .project a:hover {
 	background-color: #2196f3;
 }
