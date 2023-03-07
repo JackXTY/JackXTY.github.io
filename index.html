@@ -23,33 +23,102 @@
 	<main>
 		<section id="about-me">
 			<h2>About Me</h2>
-			<p>Hi, I'm Tianyi Xiao.</p>
+			<p>Hi, I'm Tianyi Xiao, from China. Welcome to my page!</p>
             <p>I'm a master student in UPenn now. My major is Computer Graphics and Game Technology(CGGT). I had my undergraduate degrees in CUHK for Computer Science.</p>
+			<p>I wish to become a Technical Artist in game industry.</p>
+			<a href="https://github.com/JackXTY" style = "background-color: #3f51b5;
+			color: #FFF;
+			display: inline-block;
+			margin-top: 10px;
+			padding: 10px 20px;
+			text-decoration: none;
+			font-size: 1.1em;">JackXTY's github</a>
 		</section>
 		
 		<section id="portfolio">
 			<h2>Portfolio</h2>
+			<!--
 			<div class="project">
 				<h3>Still working on this website! Sorry! About to complete initial version before 2023/3/8.</h3>
 			</div>
+			-->
 			<div class="project">
-				<h3>Github link</h3>
-				<p>Now you could see my projects through my Github Link</p>
-				<a href="https://github.com/JackXTY">JackXTY's github</a>
+				<h3>Mini-minecraft</h3>
+				<p>Created a mini version of Minecraft using C++, OpenGL and Qt.</p>
+				<p>Realized random terrain generation with different biome system (desert, forest, etc.) using various noise functions in multi-thread. Realized random river generation using L-system. Deal with rendering problem, such as rendering transparent objects, post-process effect.</p>
+				<a href="https://github.com/JackXTY/my-minecraft">github link</a>
+				<hr />
+				<img src="images\mini-minecraft\mm-0.png" style = "height: 420px;">
+				<img src="images\mini-minecraft\mm-1.png" style = "height: 420px;">
+				<img src="images\mini-minecraft\mm-2.png" style = "height: 420px;">
+				<img src="images\mini-minecraft\mm-3.png" style = "height: 420px;">
 			</div>
 			<div class="project">
-				<h3>preview pictures</h3>
-				<img src="images\PBR-0.png" style = "height: 640px;">
-				<img src="images\PBR-1.png" style = "height: 640px;">
-				<img src="images\PBR-2.png" style = "height: 640px;"><br>
-				<img src="images\shader-0.png" style = "height: 640px;"><br>
-				<img src="images\shader-dark light.png" style = "height: 640px;"><br>
+				<h3>Micro Maya</h3>
+				<p>Created a visualized mesh editor using C++, OpenGL and Qt.</p>
+				<p>User could edit 3D model, extrude faces, subdivide models with sharp edges, bind skeletons and thus realize skinning effect.</p>
+				<a href="https://github.com/JackXTY/mini-mesh-editor">github link</a>
+				<hr />
+				<p>Extrude Effect Video:</p>
+				<video height = "350px">
+					<source src="images\micro-maya\micro-maya-extrude.mp4" type="video/mp4">
+				</video>
+				<hr />
+				<p>Character Skeleton & Skinning:</p>
+				<video height = "350px">
+					<source src="images\micro-maya\micro-maya-skinning.mp4" type="video/mp4">
+				</video>
+				<hr />
+				<p>Subdivision Related Effects:</p>
+				<video height = "350px">
+					<source src="images\micro-maya\micro-maya-subdivide-0.mp4" type="video/mp4">
+				</video>
+				<video height = "350px">
+					<source src="images\micro-maya\micro-maya-subdivide-1.mp4" type="video/mp4">
+				</video>
+				<video height = "350px">
+					<source src="images\micro-maya\micro-maya-subdivide-2.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="project">
+				<h3>PBR render</h3>
+				<p>With OpenGL and Qt, I implement a PBR Path-tracer.</p>
+				<img src="images\PBR-0.png" style = "height: 420px;">
+				<img src="images\PBR-1.png" style = "height: 420px;">
+				<img src="images\PBR-2.png" style = "height: 420px;">
+			</div>
+			<div class="project">
+				<h3>Maya Model</h3>
+				<p>These are rendered scenes made in Maya.</p>
+				<img src="images\maya-drill.jpg" style = "height: 400px;">
+				<img src="images\maya-room.jpg" style = "height: 400px;">
+			</div>
+			<div class="project">
+				<h3>Post-Effect shaders</h3>
+				<p>Written in GLSL.</p>
+				<img src="images\shader-0.png" style = "height: 500px;">
+				<img src="images\shader-dark light.png" style = "height: 500px;"><br>
+				<p>Fog/Snow-like Effect Video:</p>
+				<video height = "500px">
+					<source src="images\shader-fog.mp4" type="video/mp4">
+				</video>
+				<p>Water Glass Effect Video:</p>
+				<video height = "500px">
+					<source src="images\shader-water glass.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="project">
+				<h3>Maya L-System plug-in</h3>
+				<p>A maya plug-in help users to build L-System.</p>
 				<img src="images\maya plugin-LSystem.png" style = "height: 512px;"><br>
-				<img src="images\maya-drill.jpg" style = "height: 412px;"><br>
-				<img src="images\maya-room.jpg" style = "height: 512px;"><br>
-				<img src="images\ToonShader-0.png" style = "height: 640px;">
-				<img src="images\ToonShader-1.png" style = "height: 640px;"><br>
-				
+			</div>
+			<div class="project">
+				<h3>Toon Shader</h3>
+				<p>It's a unity shader project. I try to acheive anime visual effect on character.</p>
+				<p>(Still working in progress) Now I have such effects below:</p>
+				<p>Rim Light, Character Edge, Ramp Light Shading, Face Flat Shadow</p>
+				<img src="images\ToonShader-0.png" style = "height: 512px;">
+				<img src="images\ToonShader-1.png" style = "height: 512px;"><br>
 			</div>
 		</section>
 
